@@ -7,7 +7,10 @@ targets:
     platform: iOS
     deploymentTarget: "17.0"
     sources:
-      - RegistoDespesas
+      - path: Models
+      - path: Views
+      - path: Utils
+      - path: RegistoDespesasApp.swift
     settings:
       base:
         GENERATE_INFOPLIST_FILE: YES
